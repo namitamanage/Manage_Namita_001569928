@@ -41,14 +41,18 @@ public class DeletePatientJPanel extends javax.swing.JPanel {
         btnDelete = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
 
+        setBackground(new java.awt.Color(102, 102, 102));
+
         jLabel1.setText("Enter Patient ID :");
 
+        txtDelete.setBackground(new java.awt.Color(204, 255, 204));
         txtDelete.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txtDeleteKeyReleased(evt);
             }
         });
 
+        btnDelete.setBackground(new java.awt.Color(204, 204, 255));
         btnDelete.setText("Delete");
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

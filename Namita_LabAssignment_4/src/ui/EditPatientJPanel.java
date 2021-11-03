@@ -52,6 +52,9 @@ public class EditPatientJPanel extends javax.swing.JPanel {
         btnSave = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
 
+        jPanel1.setBackground(new java.awt.Color(102, 102, 102));
+
+        jButton1.setBackground(new java.awt.Color(204, 204, 255));
         jButton1.setText("Retrieve Details");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -61,6 +64,7 @@ public class EditPatientJPanel extends javax.swing.JPanel {
 
         jLabel1.setText("Enter Patient ID");
 
+        txtPatID.setBackground(new java.awt.Color(204, 255, 204));
         txtPatID.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txtPatIDKeyReleased(evt);
@@ -68,6 +72,16 @@ public class EditPatientJPanel extends javax.swing.JPanel {
         });
 
         jLabel2.setText("Name");
+
+        txtPatName.setBackground(new java.awt.Color(204, 255, 204));
+
+        txtPatAge.setBackground(new java.awt.Color(204, 255, 204));
+
+        txtPatPhone.setBackground(new java.awt.Color(204, 255, 204));
+
+        txtPatResidence.setBackground(new java.awt.Color(204, 255, 204));
+
+        txtPatCommunity.setBackground(new java.awt.Color(204, 255, 204));
 
         jLabel3.setText("Age");
 
@@ -77,6 +91,7 @@ public class EditPatientJPanel extends javax.swing.JPanel {
 
         jLabel6.setText("Community");
 
+        btnSave.setBackground(new java.awt.Color(204, 204, 255));
         btnSave.setText("Save");
         btnSave.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

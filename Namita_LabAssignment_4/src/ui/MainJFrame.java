@@ -45,6 +45,9 @@ public class MainJFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(102, 102, 102));
+
+        btnCreate.setBackground(new java.awt.Color(204, 204, 255));
         btnCreate.setText("Create Patient");
         btnCreate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -52,6 +55,7 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
 
+        btnEdit.setBackground(new java.awt.Color(204, 204, 255));
         btnEdit.setText("Edit Patient ");
         btnEdit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -59,6 +63,7 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
 
+        btnDelete.setBackground(new java.awt.Color(204, 204, 255));
         btnDelete.setText("Delete Patient");
         btnDelete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -66,6 +71,7 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
 
+        btnVisitHistory.setBackground(new java.awt.Color(204, 204, 255));
         btnVisitHistory.setText("All Patient Log");
         btnVisitHistory.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -73,6 +79,7 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
 
+        btnNewEncounter.setBackground(new java.awt.Color(204, 204, 255));
         btnNewEncounter.setText("New Encounter");
         btnNewEncounter.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -80,6 +87,7 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
 
+        btnEncounterHistory.setBackground(new java.awt.Color(204, 204, 255));
         btnEncounterHistory.setText("Encounter History");
         btnEncounterHistory.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -129,6 +137,8 @@ public class MainJFrame extends javax.swing.JFrame {
         );
 
         jSplitPane1.setLeftComponent(jPanel1);
+
+        jPanel2.setBackground(new java.awt.Color(102, 102, 102));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);

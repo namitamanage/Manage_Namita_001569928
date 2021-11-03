@@ -58,6 +58,8 @@ public class EncounterHistoryJPanel extends javax.swing.JPanel {
         jButton1 = new javax.swing.JButton();
         lblResult = new javax.swing.JLabel();
 
+        jPanel1.setBackground(new java.awt.Color(102, 102, 102));
+
         jLabel1.setText("Encounter History");
 
         lblPatientName.setText("Patient Name :");
@@ -85,6 +87,7 @@ public class EncounterHistoryJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(tblHistory);
 
+        txtPatientName.setBackground(new java.awt.Color(204, 255, 204));
         txtPatientName.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtPatientNameActionPerformed(evt);
@@ -96,12 +99,14 @@ public class EncounterHistoryJPanel extends javax.swing.JPanel {
             }
         });
 
+        txtPatientID.setBackground(new java.awt.Color(204, 255, 204));
         txtPatientID.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txtPatientIDKeyReleased(evt);
             }
         });
 
+        btnViewHistory.setBackground(new java.awt.Color(204, 204, 255));
         btnViewHistory.setText("View History");
         btnViewHistory.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -111,8 +116,11 @@ public class EncounterHistoryJPanel extends javax.swing.JPanel {
 
         jLabel4.setText("Community :");
 
+        txtCommunity.setBackground(new java.awt.Color(204, 255, 204));
+
         jLabel5.setText("View Abnormality for :");
 
+        jButton1.setBackground(new java.awt.Color(204, 204, 255));
         jButton1.setText("Blood Pressure");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

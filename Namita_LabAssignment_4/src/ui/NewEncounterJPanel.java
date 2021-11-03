@@ -61,6 +61,8 @@ public class NewEncounterJPanel extends javax.swing.JPanel {
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
 
+        jPanel1.setBackground(new java.awt.Color(102, 102, 102));
+
         jLabel1.setText("Add New Vitals for Existing Patient");
 
         lblPatientID.setText("Patient ID :");
@@ -73,30 +75,37 @@ public class NewEncounterJPanel extends javax.swing.JPanel {
 
         lblHeartRate.setText("Respiration :");
 
+        txtPatientID.setBackground(new java.awt.Color(204, 255, 204));
         txtPatientID.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txtPatientIDKeyReleased(evt);
             }
         });
 
+        txtBloodPressure.setBackground(new java.awt.Color(204, 255, 204));
+
+        txtBodyTemperature.setBackground(new java.awt.Color(204, 255, 204));
         txtBodyTemperature.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtBodyTemperatureActionPerformed(evt);
             }
         });
 
+        txtPulseRate.setBackground(new java.awt.Color(204, 255, 204));
         txtPulseRate.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtPulseRateActionPerformed(evt);
             }
         });
 
+        txtRespiration.setBackground(new java.awt.Color(204, 255, 204));
         txtRespiration.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtRespirationActionPerformed(evt);
             }
         });
 
+        jButton1.setBackground(new java.awt.Color(204, 204, 255));
         jButton1.setText("Save");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

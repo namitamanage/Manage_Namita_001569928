@@ -83,6 +83,8 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
         jLabel24 = new javax.swing.JLabel();
         jLabel25 = new javax.swing.JLabel();
 
+        jPanel1.setBackground(new java.awt.Color(102, 102, 102));
+
         jLabel1.setText("Register Patient");
 
         jLabel2.setText("Patient ID :");
@@ -99,18 +101,21 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
 
         jLabel8.setText("City :");
 
+        txtPatientID.setBackground(new java.awt.Color(204, 255, 204));
         txtPatientID.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txtPatientIDKeyReleased(evt);
             }
         });
 
+        txtPatientName.setBackground(new java.awt.Color(204, 255, 204));
         txtPatientName.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txtPatientNameKeyReleased(evt);
             }
         });
 
+        txtAge.setBackground(new java.awt.Color(204, 255, 204));
         txtAge.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtAgeActionPerformed(evt);
@@ -122,18 +127,23 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
             }
         });
 
+        txtPhoneNo.setBackground(new java.awt.Color(204, 255, 204));
         txtPhoneNo.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txtPhoneNoKeyReleased(evt);
             }
         });
 
+        txtCommunity.setBackground(new java.awt.Color(204, 255, 204));
         txtCommunity.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txtCommunityKeyReleased(evt);
             }
         });
 
+        txtResidence.setBackground(new java.awt.Color(204, 255, 204));
+
+        txtCity.setBackground(new java.awt.Color(204, 255, 204));
         txtCity.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtCityActionPerformed(evt);
@@ -150,30 +160,35 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
 
         jLabel13.setText("Respiration :");
 
+        txtBloodPressure.setBackground(new java.awt.Color(204, 255, 204));
         txtBloodPressure.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txtBloodPressureKeyReleased(evt);
             }
         });
 
+        txtBodyTemperature.setBackground(new java.awt.Color(204, 255, 204));
         txtBodyTemperature.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txtBodyTemperatureKeyReleased(evt);
             }
         });
 
+        txtPulseRate.setBackground(new java.awt.Color(204, 255, 204));
         txtPulseRate.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txtPulseRateKeyReleased(evt);
             }
         });
 
+        txtRespiration.setBackground(new java.awt.Color(204, 255, 204));
         txtRespiration.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txtRespirationKeyReleased(evt);
             }
         });
 
+        btnSave.setBackground(new java.awt.Color(204, 204, 255));
         btnSave.setText("Save");
         btnSave.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
