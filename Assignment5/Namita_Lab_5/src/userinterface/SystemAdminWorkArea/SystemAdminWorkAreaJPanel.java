@@ -112,7 +112,7 @@ public class SystemAdminWorkAreaJPanel extends javax.swing.JPanel {
 
         btnManageAdmin.setBackground(new java.awt.Color(0, 0, 0));
         btnManageAdmin.setForeground(new java.awt.Color(255, 255, 255));
-        btnManageAdmin.setText("Manage Deliveryman");
+        btnManageAdmin.setText("Manage Deliverymen");
         btnManageAdmin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnManageAdminActionPerformed(evt);

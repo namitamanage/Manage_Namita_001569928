@@ -167,12 +167,13 @@ public class ManageCustomers extends javax.swing.JPanel {
                                 .addGap(45, 45, 45)
                                 .addComponent(btnUpdate)
                                 .addGap(56, 56, 56)
-                                .addComponent(btnDelete)
-                                .addGap(76, 76, 76)
-                                .addComponent(btnSave))
+                                .addComponent(btnDelete))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(203, 203, 203)
-                                .addComponent(btnCreateCustomer)))))
+                                .addComponent(btnCreateCustomer))))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(172, 172, 172)
+                        .addComponent(btnSave)))
                 .addContainerGap(116, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -202,9 +203,10 @@ public class ManageCustomers extends javax.swing.JPanel {
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnUpdate)
-                    .addComponent(btnDelete)
-                    .addComponent(btnSave))
-                .addContainerGap(89, Short.MAX_VALUE))
+                    .addComponent(btnDelete))
+                .addGap(18, 18, 18)
+                .addComponent(btnSave)
+                .addContainerGap(42, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
