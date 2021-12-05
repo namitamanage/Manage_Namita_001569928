@@ -12,6 +12,8 @@ import Business.Role.AdminRole;
 import Business.Role.CustomerRole;
 import Business.UserAccount.UserAccount;
 import java.awt.CardLayout;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
@@ -98,6 +100,17 @@ public class ManageRestaurants extends javax.swing.JPanel {
         jLabel2.setText("UserName:");
 
         jLabel3.setText("Password:");
+
+        txtName.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtNameActionPerformed(evt);
+            }
+        });
+        txtName.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txtNameKeyReleased(evt);
+            }
+        });
 
         btnUpdate.setBackground(new java.awt.Color(0, 0, 0));
         btnUpdate.setForeground(new java.awt.Color(255, 255, 255));
@@ -289,6 +302,28 @@ public class ManageRestaurants extends javax.swing.JPanel {
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.previous(userProcessContainer);
     }//GEN-LAST:event_btnBackActionPerformed
+
+    private void txtNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNameActionPerformed
+        // TODO add your handling code here:
+     
+    }//GEN-LAST:event_txtNameActionPerformed
+
+    private void txtNameKeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtNameKeyReleased
+        // TODO add your handling code here:
+       /* String checkName=txtName.getText();
+
+    Pattern pattern=Pattern.compile("^[a-zA-Z]{1,50}$");
+
+    Matcher matchPattern=pattern.matcher(checkName);
+    if(!matchPattern.matches())
+    {
+    jLabel4.setText("Please enter correct name.");
+    }
+    else
+    {
+    jLabel4.setText(null);
+    }*/
+    }//GEN-LAST:event_txtNameKeyReleased
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
